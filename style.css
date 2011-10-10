@@ -1,0 +1,84 @@
+body {
+  margin:0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#stage {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('stage.png') top left no-repeat;
+}
+
+#title-card {
+  padding-top: 20px;
+  margin:auto;
+  text-align:center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#go {
+  padding: 10px;
+  margin: 30px auto 10px auto;
+  border-radius: 10px;
+  background: green;
+  width: 25%;
+  text-align:center;
+}
+
+#lifeforce {
+  display: none;
+}
+
+#lifeforce div {
+  opacity: 0.75;
+  width: 200px;
+  height: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#ff5050));
+  position: absolute;
+  top: 10px;
+  border-radius: 15px;
+}
+
+@-webkit-keyframes pulse {
+  0%, 100% {
+    -webkit-box-shadow: 0 0 0px 0px #0f0;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 3px 3px #0f0;
+  }
+}
+#lifeforce div.active { -webkit-animation: pulse 1s infinite; }
+
+#lifeforce #tom { left: 15px; }
+#lifeforce #calypso { right: 15px; }
+
+#lifeforce .alive {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*border-radius: 15px 0 0 15px;*/
+  border-radius: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0f0), to(#50ff50));
+}
+
+#tom-boy {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  width: 161px;
+  height: 161px;
+  background: url('Tom-Boy.png') top left no-repeat;
+}
+
+#calypso-craig {
+  position: absolute;
+  top: 75px;
+  right: 10px;
+  width: 188px;
+  height: 148px;
+  background: url('Calypso-Craig.png') top left no-repeat;
+}
