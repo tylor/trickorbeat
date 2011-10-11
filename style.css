@@ -9,7 +9,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('stage.png') top left no-repeat;
+  background: url('Back.png') top left no-repeat;
 }
 
 #title-card {
