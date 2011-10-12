@@ -9,7 +9,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('Back.png') top left no-repeat;
+  background: url('images/Back.png') top left no-repeat;
 }
 
 #title-card {
@@ -71,7 +71,7 @@ body {
   left: 10px;
   width: 161px;
   height: 161px;
-  background: url('Tom-Boy.png') top left no-repeat;
+  background: url('images/Tom-Boy.png') top left no-repeat;
 }
 
 #calypso-craig {
@@ -80,5 +80,5 @@ body {
   right: 10px;
   width: 188px;
   height: 148px;
-  background: url('Calypso-Craig.png') top left no-repeat;
+  background: url('images/Calypso-Craig.png') top left no-repeat;
 }
